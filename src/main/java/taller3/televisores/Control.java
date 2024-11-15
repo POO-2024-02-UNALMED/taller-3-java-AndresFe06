@@ -37,12 +37,4 @@ public class Control {
     public TV getTv() {
         return this.tv;
     }
-    
-
-
-
-
-
-
-
 }
