@@ -91,12 +91,17 @@ public class TV {
         if (this.estado==true){
         if (this.volumen<7){
         this.volumen++;
-        }} return;
+        }
+    }
+     return;
     }
     public void volumenDown(){
         if (this.estado==true){
        if(this.volumen>1){
         this.volumen--;
-       }} return;
+       
+    }
+}
+ return;
 }
 }
