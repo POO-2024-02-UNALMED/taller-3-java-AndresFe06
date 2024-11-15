@@ -3,7 +3,6 @@ package taller3.televisores;
 public class Control {
     private TV tv;
 
-
     public void turnOn(){
         tv.turnOn();
     }
@@ -30,12 +29,13 @@ public class Control {
     }
     public void enlazar(TV televisor){
         this.tv=televisor;
+        televisor.setControl(this);
     }
     public void setTv(TV televisor){
         this.tv=televisor;
     }
     public TV getTv() {
-        return tv;
+        return this.tv;
     }
     
 
